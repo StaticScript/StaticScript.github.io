@@ -1,0 +1,1 @@
+# StaticScript Documment Website
