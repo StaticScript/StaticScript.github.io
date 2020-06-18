@@ -14,7 +14,7 @@ features:
     title: High Performance
   - icon: /assets/images/modular.png
     title: Modular
-footer: Open-source MIT Licensed | Copyright © 2020 | Powered by [dumi](https://d.umijs.org)
+footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
 
 ## Code Example

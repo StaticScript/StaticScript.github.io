@@ -14,7 +14,7 @@ features:
     title: 高性能
   - icon: /assets/images/modular.png
     title: 模块化
-footer: Open-source MIT Licensed | Copyright © 2020 | Powered by [dumi](https://d.umijs.org)
+footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
 
 ## 代码示例
