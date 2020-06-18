@@ -7,7 +7,7 @@ nav:
 
 ## What is StaticScript?
 
-StaticScript是一门类似于TypeScript的静态强类型编程语言.
+StaticScript is a statically typed and strongly typed programming language, syntactically like TypeScript.
 
 ## Contributing
 
