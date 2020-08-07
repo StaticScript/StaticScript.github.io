@@ -32,4 +32,4 @@ TypeScript 很香, 但本质还是编译到 JavaScript 再执行, 只能在编�
 
 - 静态强类型
 - 基于 TypeScript 语法裁剪
-- 同时支持编译执行和解释执行
+- 编译执行
