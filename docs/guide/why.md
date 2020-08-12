@@ -1,8 +1,6 @@
 ---
 title: 为什么是 StaticScript
-nav:
-  title: 指南
-  order: 1
+order: 2
 ---
 
 ## JavaScript 有点恶心
@@ -27,9 +25,3 @@ nav:
 TypeScript 很香, 但本质还是编译到 JavaScript 再执行, 只能在编译期进行约束, 没有从根本上解决 JavaScript 的问题.
 
 除此以外, TypeScript 并没有进行强制性约束, 导致很多开发者直接将 TypeScript 当做 AnyScript 来时使用.
-
-## StaticScript 的设计目标
-
-- 静态强类型
-- 基于 TypeScript 语法裁剪
-- 编译执行

@@ -33,6 +33,8 @@ export default defineConfig({
       },
     ],
   },
-  ssr: {},
+  ssr: {
+    devServerRender: false,
+  },
   exportStatic: {},
 });
