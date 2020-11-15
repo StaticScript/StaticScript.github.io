@@ -6,10 +6,10 @@ hero:
   desc: StaticScript is a programming language, syntactically like TypeScript.
   actions:
     - text: Getting Started
-      link: /
+      link: /en-US/guide/getting-started
 features:
   - icon: /assets/images/out-of-the-box.png
-    title: Out of the Box 
+    title: Out of the Box
   - icon: /assets/images/high-performance.png
     title: High Performance
   - icon: /assets/images/modular.png

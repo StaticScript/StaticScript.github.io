@@ -6,7 +6,7 @@ hero:
   desc: StaticScript是一门类似于TypeScript的编程语言
   actions:
     - text: 快速上手
-      link: /
+      link: /guide/getting-started
 features:
   - icon: /assets/images/out-of-the-box.png
     title: 开箱即用
