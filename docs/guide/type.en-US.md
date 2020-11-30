@@ -19,7 +19,19 @@ There are only two values of `boolean`, which are `true` and `false`
 
 ## Array Type
 
-> Comming Soon
+Staticscript supports arrays with element types of the above three basic types.
+
+- `boolean[]`: boolean array
+- `number[]`: number array
+- `string[]`: string array
+
+StaticScript also supports multi-dimensional array.
+
+- `boolean[][]`: 二维布尔数组
+- `number[][]`: 二维数字数组
+- `string[][]`: 二维字符串数组
+
+Note that the elements in the array must be of the same type.
 
 ## Interface Type
 

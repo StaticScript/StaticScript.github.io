@@ -3,7 +3,7 @@ title: Operators
 order: 6
 ---
 
-The following table is ordered from highest (15) to lowest (1) precedence.
+The following table is ordered from highest to lowest precedence.
 
 <iframe 
   frameborder="0"

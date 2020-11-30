@@ -22,7 +22,7 @@ When declared, constants must be initialized, and explicit type annotations are 
 
 ## Examples of variable declaration
 
-Declare Boolean variables.
+Declare Boolean variables
 
 ```ts
 // Explicit type
@@ -31,7 +31,7 @@ let a: boolean;
 let b = true;
 ```
 
-Declare numeric variables.
+Declare numeric variables
 
 ```ts
 // Explicit type
@@ -40,7 +40,7 @@ let c: number;
 let d = 1;
 ```
 
-Declare string variable.
+Declare string variable
 
 ```ts
 // Explicit type
@@ -49,9 +49,18 @@ let e: string;
 let f = 'content';
 ```
 
+Declare array variable
+
+```ts
+// Explicit type
+let e: number[] = [];
+// Type derivation
+let f = [1, 2];
+```
+
 ## Examples of constant declaration
 
-Declare Boolean constants.
+Declare Boolean constants
 
 ```ts
 // Explicit type
@@ -60,7 +69,7 @@ const a: boolean;
 const b = true;
 ```
 
-Declare a numeric constant.
+Declare a numeric constant
 
 ```ts
 // Explicit type
@@ -69,13 +78,22 @@ const c: number;
 const d = 1;
 ```
 
-Declare string constants.
+Declare string constants
 
 ```ts
 // Explicit type
 const e: string;
 // Type derivation
 const f = 'content';
+```
+
+Declare array constants
+
+```ts
+// Explicit type
+const e: number = [];
+// Type derivation
+const f = [1, 2];
 ```
 
 ## Possible semantic errors
@@ -112,3 +130,15 @@ Constants are assigned twice after declaration.
 const A = 10;
 A = 20;
 ```
+
+An empty array of type is not explicitly declared.
+
+```ts
+// error
+let arr1 = [];
+
+// error
+const arr2 = [];
+```
+
+> StaticScript cannot infer a type from an empty array.
