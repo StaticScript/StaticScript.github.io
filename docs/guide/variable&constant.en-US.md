@@ -31,36 +31,45 @@ let a: boolean;
 let b = true;
 ```
 
-Declare numeric variables
+Declare integer variables
 
 ```ts
 // Explicit type
-let c: number;
+let c: int;
 // Type derivation
 let d = 1;
+```
+
+Declare float-point variables
+
+```ts
+// Explicit type
+let e: number;
+// Type derivation
+let f = 1.2;
 ```
 
 Declare string variable
 
 ```ts
 // Explicit type
-let e: string;
+let g: string;
 // Type derivation
-let f = 'content';
+let h = 'content';
 ```
 
 Declare array variable
 
 ```ts
 // Explicit type
-let e: number[] = [];
+let i: number[] = [];
 // Type derivation
-let f = [1, 2];
+let j = [1, 2];
 ```
 
 ## Examples of constant declaration
 
-Declare Boolean constants
+Declare boolean constants
 
 ```ts
 // Explicit type
@@ -69,31 +78,40 @@ const a: boolean;
 const b = true;
 ```
 
-Declare a numeric constant
+Declare integer constant
 
 ```ts
 // Explicit type
-const c: number;
+const c: int;
 // Type derivation
 const d = 1;
+```
+
+Declare float-point constant
+
+```ts
+// Explicit type
+const e: number;
+// Type derivation
+const f = 1.2;
 ```
 
 Declare string constants
 
 ```ts
 // Explicit type
-const e: string;
+const g: string;
 // Type derivation
-const f = 'content';
+const h = 'content';
 ```
 
 Declare array constants
 
 ```ts
 // Explicit type
-const e: number = [];
+const i: number = [];
 // Type derivation
-const f = [1, 2];
+const j = [1, 2];
 ```
 
 ## Possible semantic errors

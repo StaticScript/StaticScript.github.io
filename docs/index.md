@@ -21,7 +21,8 @@ footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](http
 
 ```ts
 let flag: boolean = true;
-let count: number = 20;
+let count: int = 20;
+let average: number = 1.23;
 let content: string = 'Hello World';
 
 const name = 'StaticScript';

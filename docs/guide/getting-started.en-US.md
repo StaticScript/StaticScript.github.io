@@ -9,7 +9,8 @@ Here are some variable declarations.
 
 ```typescript
 let flag: boolean = true;
-let count: number = 20;
+let count: int = 20;
+let average: number = 1.234;
 let content: string = 'Hello World';
 ```
 
@@ -18,6 +19,7 @@ Thanks to the type inference feature of StaticScript, we can write the above var
 ```typescript
 let flag = true;
 let count = 20;
+let average = 1.234;
 let content = 'Hello World';
 ```
 
@@ -28,6 +30,7 @@ In addition to using `let` to declare variables, you can also use `const` to dec
 ```typescript
 const name = 'StaticScript';
 const age = 1;
+const bound = 10.1;
 const developing = true;
 ```
 

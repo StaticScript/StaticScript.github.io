@@ -8,12 +8,15 @@ order: 4
 Staticscript currently has three basic types
 
 - `boolean`
-- `number`
+- `int`: integer array
+- `number`: floating-point array
 - `string`
 
 There are only two values of `boolean`, which are `true` and `false`
 
-`number` only supports 64 bit integers in the range of `[-9223372036854775808, 9223372036854775807]`
+`int` only supports 64 bit integers in the range of `[-9223372036854775808, 9223372036854775807]`
+
+`number` supports IEEE-754 standard double precision floating-point numbers, and the range is between `- 1.7976931348623157e + 308, 1.7976931348623157e + 308]`
 
 `string` is an immutable sequence of characters
 
@@ -22,14 +25,16 @@ There are only two values of `boolean`, which are `true` and `false`
 Staticscript supports arrays with element types of the above three basic types.
 
 - `boolean[]`: boolean array
-- `number[]`: number array
+- `int[]`: integer array
+- `number[]`: floating-point array
 - `string[]`: string array
 
 StaticScript also supports multi-dimensional array.
 
-- `boolean[][]`: 二维布尔数组
-- `number[][]`: 二维数字数组
-- `string[][]`: 二维字符串数组
+- `boolean[][]`: 2-dimensional boolean array
+- `int[][]`: 2-dimensional integer array
+- `number[][]`: 2-dimensional floating-point array
+- `string[][]`: 2-dimensional string array
 
 Note that the elements in the array must be of the same type.
 
@@ -44,5 +49,6 @@ When a variable is created, if the initial value is not specified explicitly, th
 The zero values of each type are as follows::
 
 - `boolean`: its zero value is `false`
-- `number`: its zero value is `0`
+- `int`: its zero value is `0`
+- `number`: its zero value is `0.0`
 - `string`: its zero value is `""`

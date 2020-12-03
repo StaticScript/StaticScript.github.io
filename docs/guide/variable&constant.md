@@ -1,5 +1,5 @@
 ---
-title: 变量和常量
+title: 变量与常量
 order: 5
 ---
 
@@ -31,31 +31,40 @@ let a: boolean;
 let b = true;
 ```
 
-声明数字变量
+声明整数变量
 
 ```ts
 // 显式类型
-let c: number;
+let c: int;
 // 类型推导
 let d = 1;
+```
+
+声明浮点数变量
+
+```ts
+// 显式类型
+let e: number;
+// 类型推导
+let f = 1.2;
 ```
 
 声明字符串变量
 
 ```ts
 // 显式类型
-let e: string;
+let g: string;
 // 类型推导
-let f = 'content';
+let h = 'content';
 ```
 
 声明数组
 
 ```ts
 // 显式类型
-let e: number[] = [];
+let i: number[] = [];
 // 类型推导
-let f = [1, 2];
+let j = [1, 2];
 ```
 
 ## 常量声明示例
@@ -69,31 +78,40 @@ const a: boolean;
 const b = true;
 ```
 
-声明数字常量
+声明整数常量
 
 ```ts
 // 显式类型
-const c: number;
+const c: int;
 // 类型推导
 const d = 1;
+```
+
+声明浮点数常量
+
+```ts
+// 显式类型
+const e: number;
+// 类型推导
+const f = 1.2;
 ```
 
 声明字符串常量
 
 ```ts
 // 显式类型
-const e: string;
+const g: string;
 // 类型推导
-const f = 'content';
+const h = 'content';
 ```
 
 声明数组常量
 
 ```ts
 // 显式类型
-const e: number = [];
+const i: number = [];
 // 类型推导
-const f = [1, 2];
+const j = [1, 2];
 ```
 
 ## 可能的语义报错

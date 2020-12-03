@@ -9,7 +9,8 @@ order: 3
 
 ```typescript
 let flag: boolean = true;
-let count: number = 20;
+let count: int = 20;
+let average: number = 1.234;
 let content: string = 'Hello World';
 ```
 
@@ -18,6 +19,7 @@ let content: string = 'Hello World';
 ```typescript
 let flag = true;
 let count = 20;
+let average = 1.234;
 let content = 'Hello World';
 ```
 
@@ -28,6 +30,7 @@ StaticScript 的编译器可以巧妙地从变量的初始值推导出变量的�
 ```typescript
 const name = 'StaticScript';
 const age = 1;
+const bound = 10.1;
 const developing = true;
 ```
 
