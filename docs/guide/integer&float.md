@@ -1,6 +1,6 @@
 ---
 title: 整数与浮点数
-order: 5
+order: 7
 ---
 
 在 StaticScript 中, 整型和浮点型被认为是相同的类型, 都属于数字类型

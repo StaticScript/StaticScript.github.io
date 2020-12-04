@@ -12,13 +12,13 @@ Staticscript currently has three basic types
 - `number`: floating-point array
 - `string`
 
-There are only two values of `boolean`, which are `true` and `false`
+There are only two values of `boolean`, which are `true` and `false`.
 
-`int` only supports 64 bit integers in the range of `[-9223372036854775808, 9223372036854775807]`
+`int` only supports 64 bit integers in the range of `[-9223372036854775808, 9223372036854775807]`.
 
-`number` supports IEEE-754 standard double precision floating-point numbers, and the range is between `- 1.7976931348623157e + 308, 1.7976931348623157e + 308]`
+`number` supports IEEE-754 standard double precision floating-point numbers, and the range is between `- 1.7976931348623157e + 308, 1.7976931348623157e + 308]`.
 
-`string` is an immutable sequence of characters
+`string` is an immutable sequence of characters.
 
 ## Array Type
 
@@ -46,7 +46,7 @@ Note that the elements in the array must be of the same type.
 
 When a variable is created, if the initial value is not specified explicitly, the compiler will automatically initialize its value to zero value of its type.
 
-The zero values of each type are as follows::
+The zero values of each type are as follows:
 
 - `boolean`: its zero value is `false`
 - `int`: its zero value is `0`

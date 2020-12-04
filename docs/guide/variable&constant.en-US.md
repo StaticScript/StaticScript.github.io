@@ -1,5 +1,5 @@
 ---
-title: Variable & Constant
+title: Variable and Constant
 order: 5
 ---
 
@@ -40,7 +40,7 @@ let c: int;
 let d = 1;
 ```
 
-Declare float-point variables
+Declare floating-point variables
 
 ```ts
 // Explicit type
@@ -87,7 +87,7 @@ const c: int;
 const d = 1;
 ```
 
-Declare float-point constant
+Declare floating-point constant
 
 ```ts
 // Explicit type
