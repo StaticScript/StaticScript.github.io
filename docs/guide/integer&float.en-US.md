@@ -1,6 +1,6 @@
 ---
 title: Integer and Floating-Point
-order: 7
+order: 8
 ---
 
 In StaticScript, integers and floats are considered to be the same type, both of which are numeric.

@@ -1,6 +1,6 @@
 ---
 title: Operators
-order: 6
+order: 7
 ---
 
 The following table is ordered from highest to lowest precedence.

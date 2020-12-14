@@ -73,7 +73,7 @@ let j = [1, 2];
 
 ```ts
 // 显式类型
-const a: boolean;
+const a: boolean = true;
 // 类型推导
 const b = true;
 ```
@@ -82,7 +82,7 @@ const b = true;
 
 ```ts
 // 显式类型
-const c: int;
+const c: int = 1;
 // 类型推导
 const d = 1;
 ```
@@ -91,7 +91,7 @@ const d = 1;
 
 ```ts
 // 显式类型
-const e: number;
+const e: number = 1.1;
 // 类型推导
 const f = 1.2;
 ```
@@ -100,7 +100,7 @@ const f = 1.2;
 
 ```ts
 // 显式类型
-const g: string;
+const g: string = 'hi';
 // 类型推导
 const h = 'content';
 ```
@@ -109,7 +109,7 @@ const h = 'content';
 
 ```ts
 // 显式类型
-const i: number = [];
+const i: number[] = [1.1, 2.2];
 // 类型推导
 const j = [1, 2];
 ```

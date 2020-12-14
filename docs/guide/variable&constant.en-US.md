@@ -73,7 +73,7 @@ Declare boolean constants
 
 ```ts
 // Explicit type
-const a: boolean;
+const a: boolean = true;
 // Type derivation
 const b = true;
 ```
@@ -82,7 +82,7 @@ Declare integer constant
 
 ```ts
 // Explicit type
-const c: int;
+const c: int = 1;
 // Type derivation
 const d = 1;
 ```
@@ -91,7 +91,7 @@ Declare floating-point constant
 
 ```ts
 // Explicit type
-const e: number;
+const e: number = 1.1;
 // Type derivation
 const f = 1.2;
 ```
@@ -100,7 +100,7 @@ Declare string constants
 
 ```ts
 // Explicit type
-const g: string;
+const g: string = 'hi';
 // Type derivation
 const h = 'content';
 ```
@@ -109,7 +109,7 @@ Declare array constants
 
 ```ts
 // Explicit type
-const i: number = [];
+const i: number[] = [1.1, 2.2];
 // Type derivation
 const j = [1, 2];
 ```
