@@ -3,7 +3,7 @@ title: StaticScript
 order: 10
 hero:
   title: StaticScript
-  desc: StaticScript是一门类似于TypeScript的编程语言
+  desc: StaticScript是一门类似于TypeScript的静态编译型语言
   actions:
     - text: 快速上手
       link: /guide/getting-started
@@ -23,9 +23,9 @@ footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](http
 let flag: boolean = true;
 let count: int = 20;
 let average: number = 1.23;
-let content: string = 'Hello World';
+let content: string = "Hello World";
 
-const name = 'StaticScript';
+const name = "StaticScript";
 const age = 1;
 const developing = true;
 
@@ -41,15 +41,15 @@ let quotient = a / b;
 a = a << 1; // 等效于 `a <<= 1`
 b = b >> 1; // 等效于 `b >>= 1`
 
-let year = '2020',
-  month = '08',
-  day = '06';
-let birthday = year + '/' + month + '/' + day;
+const year = "2020";
+const month = "08";
+const day = "06";
+let birthday = year + "/" + month + "/" + day;
 
 if (a < b) {
-  ss_println_string('b更大');
+  ss_println_string("b更大");
 } else {
-  ss_println_string('b不比a大');
+  ss_println_string("b不比a大");
 }
 
 let max = a;

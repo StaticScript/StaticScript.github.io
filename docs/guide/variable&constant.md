@@ -55,7 +55,7 @@ let f = 1.2;
 // 显式类型
 let g: string;
 // 类型推导
-let h = 'content';
+let h = "content";
 ```
 
 声明数组
@@ -100,9 +100,9 @@ const f = 1.2;
 
 ```ts
 // 显式类型
-const g: string = 'hi';
+const g: string = "hi";
 // 类型推导
-const h = 'content';
+const h = "content";
 ```
 
 声明数组常量

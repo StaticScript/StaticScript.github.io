@@ -11,7 +11,7 @@ order: 3
 let flag: boolean = true;
 let count: int = 20;
 let average: number = 1.234;
-let content: string = 'Hello World';
+let content: string = "Hello World";
 ```
 
 得益于 StaticScript 的类型推导特性, 我们可以把上面的变量声明写成下面这样, 它们是等效的
@@ -20,7 +20,7 @@ let content: string = 'Hello World';
 let flag = true;
 let count = 20;
 let average = 1.234;
-let content = 'Hello World';
+let content = "Hello World";
 ```
 
 StaticScript 的编译器可以巧妙地从变量的初始值推导出变量的类型
@@ -28,7 +28,7 @@ StaticScript 的编译器可以巧妙地从变量的初始值推导出变量的�
 除了使用`let`声明变量外，还可以使用`const`声明常量
 
 ```typescript
-const name = 'StaticScript';
+const name = "StaticScript";
 const age = 1;
 const bound = 10.1;
 const developing = true;
@@ -53,10 +53,10 @@ let quotient = a / b;
 a = a << 1; // 等效于 `a <<= 1`
 b = b >> 1; // 等效于 `b >>= 1`
 
-let year = '2020',
-  month = '08',
-  day = '06';
-let birthday = year + '/' + month + '/' + day;
+let year = "2020",
+  month = "08",
+  day = "06";
+let birthday = year + "/" + month + "/" + day;
 ```
 
 ## 控制流
@@ -65,9 +65,9 @@ let birthday = year + '/' + month + '/' + day;
 let a = 1;
 let b = 100;
 if (a < b) {
-  ss_println_string('b更大');
+  ss_println_string("b更大");
 } else {
-  ss_println_string('b不比a大');
+  ss_println_string("b不比a大");
 }
 
 let max = a;

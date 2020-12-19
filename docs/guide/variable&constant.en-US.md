@@ -55,7 +55,7 @@ Declare string variable
 // Explicit type
 let g: string;
 // Type derivation
-let h = 'content';
+let h = "content";
 ```
 
 Declare array variable
@@ -100,9 +100,9 @@ Declare string constants
 
 ```ts
 // Explicit type
-const g: string = 'hi';
+const g: string = "hi";
 // Type derivation
-const h = 'content';
+const h = "content";
 ```
 
 Declare array constants

@@ -8,7 +8,7 @@ nav:
 
 ## What is StaticScript?
 
-StaticScript is a statically typed and strongly typed programming language, syntactically like TypeScript.
+StaticScript is a statically typed programming language, syntactically like TypeScript.
 
 ## Contributing
 

@@ -11,7 +11,7 @@ Here are some variable declarations.
 let flag: boolean = true;
 let count: int = 20;
 let average: number = 1.234;
-let content: string = 'Hello World';
+let content: string = "Hello World";
 ```
 
 Thanks to the type inference feature of StaticScript, we can write the above variable declaration as follows. They are exactly equivalent.
@@ -20,7 +20,7 @@ Thanks to the type inference feature of StaticScript, we can write the above var
 let flag = true;
 let count = 20;
 let average = 1.234;
-let content = 'Hello World';
+let content = "Hello World";
 ```
 
 The compiler of StaticScript cleverly deduced the type of the variable from the initial value.
@@ -28,7 +28,7 @@ The compiler of StaticScript cleverly deduced the type of the variable from the 
 In addition to using `let` to declare variables, you can also use `const` to declare constants.
 
 ```typescript
-const name = 'StaticScript';
+const name = "StaticScript";
 const age = 1;
 const bound = 10.1;
 const developing = true;
@@ -53,10 +53,10 @@ let quotient = a / b;
 a = a << 1; // equivalent to `a <<= 1`
 b = b >> 1; // equivalent to `b >>= 1`
 
-let year = '2020',
-  month = '08',
-  day = '06';
-let birthday = year + '/' + month + '/' + day;
+let year = "2020",
+  month = "08",
+  day = "06";
+let birthday = year + "/" + month + "/" + day;
 ```
 
 ## Control Flow
@@ -65,9 +65,9 @@ let birthday = year + '/' + month + '/' + day;
 let a = 1;
 let b = 100;
 if (a < b) {
-  ss_println_string('b is bigger');
+  ss_println_string("b is bigger");
 } else {
-  ss_println_string('b is not bigger');
+  ss_println_string("b is not bigger");
 }
 
 let max = a;

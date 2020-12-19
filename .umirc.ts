@@ -1,40 +1,40 @@
-import { defineConfig } from 'dumi';
+import { defineConfig } from "dumi";
 
 export default defineConfig({
-  title: 'StaticScript',
-  mode: 'site',
+  title: "StaticScript",
+  mode: "site",
   locales: [
-    ['zh-CN', '中文'],
-    ['en-US', 'English'],
+    ["zh-CN", "中文"],
+    ["en-US", "English"]
   ],
   hash: true,
   headScripts: [
     {
-      src: 'https://www.googletagmanager.com/gtag/js?id=UA-89371431-6',
-      async: true,
+      src: "https://www.googletagmanager.com/gtag/js?id=UA-89371431-6",
+      async: true
     },
     {
-      content: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","UA-89371431-6");`,
-    },
+      content: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","UA-89371431-6");`
+    }
   ],
   navs: {
-    'zh-CN': [
+    "zh-CN": [
       null,
       {
-        title: 'GitHub',
-        path: 'https://github.com/StaticScript/StaticScript',
-      },
+        title: "GitHub",
+        path: "https://github.com/StaticScript/StaticScript"
+      }
     ],
-    'en-US': [
+    "en-US": [
       null,
       {
-        title: 'GitHub',
-        path: 'https://github.com/StaticScript/StaticScript',
-      },
-    ],
+        title: "GitHub",
+        path: "https://github.com/StaticScript/StaticScript"
+      }
+    ]
   },
   ssr: {
-    devServerRender: false,
+    devServerRender: false
   },
-  exportStatic: {},
+  exportStatic: {}
 });
